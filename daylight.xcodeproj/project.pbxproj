@@ -13,6 +13,20 @@
 		014DA52A268234510054A482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DA51A268234500054A482 /* ContentView.swift */; };
 		014DA52B268234510054A482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014DA51B268234510054A482 /* Assets.xcassets */; };
 		014DA52C268234510054A482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014DA51B268234510054A482 /* Assets.xcassets */; };
+		014DA5392682347A0054A482 /* sunriset.c in Sources */ = {isa = PBXBuildFile; fileRef = 014DA5382682347A0054A482 /* sunriset.c */; };
+		014DA53A2682347A0054A482 /* sunriset.c in Sources */ = {isa = PBXBuildFile; fileRef = 014DA5382682347A0054A482 /* sunriset.c */; };
+		014DA53F268239490054A482 /* timezones.json in Resources */ = {isa = PBXBuildFile; fileRef = 014DA53C268239480054A482 /* timezones.json */; };
+		014DA540268239490054A482 /* timezones.json in Resources */ = {isa = PBXBuildFile; fileRef = 014DA53C268239480054A482 /* timezones.json */; };
+		014DA541268239490054A482 /* TimeZoneLocate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DA53E268239490054A482 /* TimeZoneLocate.swift */; };
+		014DA542268239490054A482 /* TimeZoneLocate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DA53E268239490054A482 /* TimeZoneLocate.swift */; };
+		014DA547268247EA0054A482 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DA546268247EA0054A482 /* Globals.swift */; };
+		014DA548268247EA0054A482 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DA546268247EA0054A482 /* Globals.swift */; };
+		01D6E730268352E800285DF4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6E72F2683529400285DF4 /* Model.swift */; };
+		01D6E731268352E800285DF4 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6E72E2683527D00285DF4 /* Shapes.swift */; };
+		01D6E732268352F400285DF4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6E72F2683529400285DF4 /* Model.swift */; };
+		01D6E733268352F400285DF4 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6E72E2683527D00285DF4 /* Shapes.swift */; };
+		01D6E7352683533600285DF4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6E7342683531F00285DF4 /* Extensions.swift */; };
+		01D6E7362683533900285DF4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6E7342683531F00285DF4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +35,19 @@
 		014DA51B268234510054A482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014DA520268234510054A482 /* daylight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daylight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014DA526268234510054A482 /* daylight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daylight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014DA535268234790054A482 /* daylight (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "daylight (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		014DA536268234790054A482 /* daylight (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "daylight (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		014DA5372682347A0054A482 /* sunriset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sunriset.h; sourceTree = "<group>"; };
+		014DA5382682347A0054A482 /* sunriset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sunriset.c; sourceTree = "<group>"; };
+		014DA53C268239480054A482 /* timezones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timezones.json; sourceTree = "<group>"; };
+		014DA53E268239490054A482 /* TimeZoneLocate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeZoneLocate.swift; sourceTree = "<group>"; };
+		014DA543268244390054A482 /* daylight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = daylight.entitlements; sourceTree = "<group>"; };
+		014DA544268247080054A482 /* daylight--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "daylight--iOS--Info.plist"; sourceTree = "<group>"; };
+		014DA5452682471A0054A482 /* daylight--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "daylight--macOS--Info.plist"; sourceTree = "<group>"; };
+		014DA546268247EA0054A482 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		01D6E72E2683527D00285DF4 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		01D6E72F2683529400285DF4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		01D6E7342683531F00285DF4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +71,9 @@
 		014DA513268234500054A482 = {
 			isa = PBXGroup;
 			children = (
+				014DA5452682471A0054A482 /* daylight--macOS--Info.plist */,
+				014DA544268247080054A482 /* daylight--iOS--Info.plist */,
+				014DA543268244390054A482 /* daylight.entitlements */,
 				014DA518268234500054A482 /* Shared */,
 				014DA521268234510054A482 /* Products */,
 			);
@@ -52,9 +82,19 @@
 		014DA518268234500054A482 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				014DA53B268239480054A482 /* Assets */,
+				014DA53D268239490054A482 /* Classes */,
 				014DA519268234500054A482 /* daylightApp.swift */,
 				014DA51A268234500054A482 /* ContentView.swift */,
+				01D6E7342683531F00285DF4 /* Extensions.swift */,
+				01D6E72F2683529400285DF4 /* Model.swift */,
+				01D6E72E2683527D00285DF4 /* Shapes.swift */,
+				014DA546268247EA0054A482 /* Globals.swift */,
+				014DA5372682347A0054A482 /* sunriset.h */,
+				014DA5382682347A0054A482 /* sunriset.c */,
 				014DA51B268234510054A482 /* Assets.xcassets */,
+				014DA535268234790054A482 /* daylight (iOS)-Bridging-Header.h */,
+				014DA536268234790054A482 /* daylight (macOS)-Bridging-Header.h */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -66,6 +106,22 @@
 				014DA526268234510054A482 /* daylight.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		014DA53B268239480054A482 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				014DA53C268239480054A482 /* timezones.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		014DA53D268239490054A482 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				014DA53E268239490054A482 /* TimeZoneLocate.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,9 +173,11 @@
 				TargetAttributes = {
 					014DA51F268234510054A482 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 					014DA525268234510054A482 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -147,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014DA53F268239490054A482 /* timezones.json in Resources */,
 				014DA52B268234510054A482 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014DA540268239490054A482 /* timezones.json in Resources */,
 				014DA52C268234510054A482 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,7 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D6E7352683533600285DF4 /* Extensions.swift in Sources */,
+				01D6E732268352F400285DF4 /* Model.swift in Sources */,
+				01D6E733268352F400285DF4 /* Shapes.swift in Sources */,
+				014DA5392682347A0054A482 /* sunriset.c in Sources */,
 				014DA529268234510054A482 /* ContentView.swift in Sources */,
+				014DA541268239490054A482 /* TimeZoneLocate.swift in Sources */,
+				014DA547268247EA0054A482 /* Globals.swift in Sources */,
 				014DA527268234510054A482 /* daylightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D6E7362683533900285DF4 /* Extensions.swift in Sources */,
+				01D6E730268352E800285DF4 /* Model.swift in Sources */,
+				01D6E731268352E800285DF4 /* Shapes.swift in Sources */,
+				014DA53A2682347A0054A482 /* sunriset.c in Sources */,
 				014DA52A268234510054A482 /* ContentView.swift in Sources */,
+				014DA542268239490054A482 /* TimeZoneLocate.swift in Sources */,
+				014DA548268247EA0054A482 /* Globals.swift in Sources */,
 				014DA528268234510054A482 /* daylightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,11 +371,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CBY22P58G8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "daylight--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = daylight;
+				INFOPLIST_KEY_CFBundleName = daylight;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +396,8 @@
 				PRODUCT_NAME = daylight;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/daylight (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,11 +408,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CBY22P58G8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "daylight--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = daylight;
+				INFOPLIST_KEY_CFBundleName = daylight;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,6 +433,7 @@
 				PRODUCT_NAME = daylight;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/daylight (iOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -360,6 +445,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = daylight.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -369,6 +456,10 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "daylight--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = daylight;
+				INFOPLIST_KEY_CFBundleName = daylight;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +471,8 @@
 				PRODUCT_NAME = daylight;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/daylight (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -389,6 +482,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = daylight.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -398,6 +493,10 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "daylight--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = daylight;
+				INFOPLIST_KEY_CFBundleName = daylight;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -409,6 +508,7 @@
 				PRODUCT_NAME = daylight;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/daylight (macOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
