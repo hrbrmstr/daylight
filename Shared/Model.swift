@@ -19,24 +19,57 @@ class SunrisetModel: NSObject, ObservableObject, CLLocationManagerDelegate {
   @Published var todayRise: Double = 0
   @Published var todaySet: Double = 0
   
-//  let locationManager = CLLocationManager()
+  @Published var placemark: CLPlacemark?
+  
+  private let geocoder = CLGeocoder()
+
+  let locationManager = CLLocationManager()
   
   var latitude: Double = 0
   var longitude: Double = 0
   
+  weak var timer: Timer?
+
   override init() {
     
     super.init()
     
-//    locationManager.delegate = self
-//    locationManager.requestWhenInUseAuthorization()
-//    locationManager.requestLocation()
-    
+    locationManager.delegate = self
+    locationManager.requestWhenInUseAuthorization()
+
     self.longitude = -70.8636
     self.latitude = 43.2683
     
     self.updateSunriseSunset()
     
+    self.startTimer()
+    
+  }
+  
+  deinit {
+    stopTimer()
+  }
+  
+  func startTimer() {
+    
+    stopTimer()
+    
+    timer = Timer.scheduledTimer(withTimeInterval: 1*60, repeats: true) { [weak self] _ in
+      
+      debugPrint("Timer")
+      
+      self?.locationManager.requestLocation()
+      
+      DispatchQueue.main.async {
+        self?.updateSunriseSunset()
+      }
+      
+    }
+    
+  }
+  
+  func stopTimer() {
+    timer?.invalidate()
   }
   
   func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
@@ -44,7 +77,8 @@ class SunrisetModel: NSObject, ObservableObject, CLLocationManagerDelegate {
   }
   
   func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-    if let location = locations.first {
+    if let location = locations.last {
+      debugPrint("Got location")
       DispatchQueue.main.async {
         self.latitude = location.coordinate.latitude
         self.longitude = location.coordinate.longitude
@@ -58,7 +92,18 @@ class SunrisetModel: NSObject, ObservableObject, CLLocationManagerDelegate {
     var sunrise: CDouble = 0
     var sunset: CDouble = 0
     
+    today = Date()
+    
     let location = CLLocation(latitude: self.latitude, longitude: self.longitude)
+    
+    geocoder.reverseGeocodeLocation(location, completionHandler: { (places, error) in
+      if error == nil {
+        self.placemark = places?[0]
+      } else {
+        self.placemark = nil
+      }
+    })
+    
     let GMTHourOffset = Double(location.timeZone.secondsFromGMT() / 60 / 60)
     
     dateRange = Date.dates(
@@ -70,7 +115,7 @@ class SunrisetModel: NSObject, ObservableObject, CLLocationManagerDelegate {
       
       let mdy = ssDate.get(.day, .month, .year)
       let _ = __sunriset__(CInt(mdy.year!), CInt(mdy.month!), CInt(mdy.day!), self.longitude, self.latitude, -35.0/60.0, 1, &sunrise, &sunset)
-      
+            
       let sunriseDbl: Double = Double(sunrise) + GMTHourOffset
       let sunsetDbl: Double = Double(sunset) + GMTHourOffset
       
@@ -86,6 +131,8 @@ class SunrisetModel: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     sunrises = ssTimes.map { val in val.0 }
     sunsets = ssTimes.map { val in val.1 }
+    
+    debugPrint("\(today) \(longitude) \(latitude) \(todayRise) \(todaySet)")
     
   }
   

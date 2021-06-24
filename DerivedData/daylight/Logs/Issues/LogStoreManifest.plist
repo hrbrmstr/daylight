@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>42641E11-632A-4B6B-825A-01FACD60A942</key>
+		<key>06C71BC3-0D3D-4B17-BC28-99D613E2DE30</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,35 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>42641E11-632A-4B6B-825A-01FACD60A942.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>daylight_(iOS)-akcghttsgbqssphehaldzwxrujti</string>
-			<key>timeStartedRecording</key>
-			<real>646140895.04076803</real>
-			<key>timeStoppedRecording</key>
-			<real>646140896.05403697</real>
-			<key>title</key>
-			<string>Build target daylight (iOS)</string>
-			<key>uniqueIdentifier</key>
-			<string>42641E11-632A-4B6B-825A-01FACD60A942</string>
-		</dict>
-		<key>F6A15304-7015-4329-8352-FCA4E0944F8F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>F6A15304-7015-4329-8352-FCA4E0944F8F.xcactivitylog</string>
+			<string>06C71BC3-0D3D-4B17-BC28-99D613E2DE30.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +26,41 @@
 			<key>signature</key>
 			<string>daylight_(macOS)-akcghttsgbqssphehaldzwxrujti</string>
 			<key>timeStartedRecording</key>
-			<real>646140167.89681494</real>
+			<real>646227793.50252199</real>
 			<key>timeStoppedRecording</key>
-			<real>646140169.14574695</real>
+			<real>646227795.81976604</real>
 			<key>title</key>
 			<string>Build target daylight (macOS)</string>
 			<key>uniqueIdentifier</key>
-			<string>F6A15304-7015-4329-8352-FCA4E0944F8F</string>
+			<string>06C71BC3-0D3D-4B17-BC28-99D613E2DE30</string>
+		</dict>
+		<key>1C4C09A9-A392-44A3-AA63-1F042B686322</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>1C4C09A9-A392-44A3-AA63-1F042B686322.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>daylight_(iOS)-akcghttsgbqssphehaldzwxrujti</string>
+			<key>timeStartedRecording</key>
+			<real>646228965.91791606</real>
+			<key>timeStoppedRecording</key>
+			<real>646228968.16173196</real>
+			<key>title</key>
+			<string>Build target daylight (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>1C4C09A9-A392-44A3-AA63-1F042B686322</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

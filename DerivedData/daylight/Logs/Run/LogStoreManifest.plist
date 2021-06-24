@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>11CDCFDD-B6C7-4F98-8A95-FCBAFB0E7518</key>
+		<key>2B706CEC-C859-44FF-A3BA-E76491BE8A79</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>11CDCFDD-B6C7-4F98-8A95-FCBAFB0E7518.xcactivitylog</string>
+			<string>2B706CEC-C859-44FF-A3BA-E76491BE8A79.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (macOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646225933.12872398</real>
+			<key>timeStoppedRecording</key>
+			<real>646226240.14531302</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>2B706CEC-C859-44FF-A3BA-E76491BE8A79</string>
+		</dict>
+		<key>367D2796-E8F7-4484-A711-886D30E10D69</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>367D2796-E8F7-4484-A711-886D30E10D69.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +66,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646140415.21309102</real>
+			<real>646228475.043239</real>
 			<key>timeStoppedRecording</key>
-			<real>646140511.01329195</real>
+			<real>646228965.92649996</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>11CDCFDD-B6C7-4F98-8A95-FCBAFB0E7518</string>
+			<string>367D2796-E8F7-4484-A711-886D30E10D69</string>
 		</dict>
-		<key>1F66AF2E-3D9C-403D-B9E7-277779EDEF97</key>
+		<key>3C66093A-A988-4C9E-BCA5-A7F270F33EF4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1F66AF2E-3D9C-403D-B9E7-277779EDEF97.xcactivitylog</string>
+			<string>3C66093A-A988-4C9E-BCA5-A7F270F33EF4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +100,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646140276.56443</real>
+			<real>646227739.035954</real>
 			<key>timeStoppedRecording</key>
-			<real>646140308.17683899</real>
+			<real>646227749.04972601</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>1F66AF2E-3D9C-403D-B9E7-277779EDEF97</string>
+			<string>3C66093A-A988-4C9E-BCA5-A7F270F33EF4</string>
 		</dict>
-		<key>3DF2DF43-4D68-4476-9DBE-5DD0FF0DF36C</key>
+		<key>4AD9F1C0-5BC2-4DC3-AF0C-F8C49397F094</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3DF2DF43-4D68-4476-9DBE-5DD0FF0DF36C.xcactivitylog</string>
+			<string>4AD9F1C0-5BC2-4DC3-AF0C-F8C49397F094.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +134,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646140896.06024694</real>
+			<real>646228391.25629795</real>
 			<key>timeStoppedRecording</key>
-			<real>646140954.24457204</real>
+			<real>646228473.636397</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>3DF2DF43-4D68-4476-9DBE-5DD0FF0DF36C</string>
+			<string>4AD9F1C0-5BC2-4DC3-AF0C-F8C49397F094</string>
 		</dict>
-		<key>422354D6-DB8C-453A-8CCB-E6FCF8D16AE0</key>
+		<key>63EA930C-D1CD-4D5D-A9A4-F9A7E1A86E6B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>422354D6-DB8C-453A-8CCB-E6FCF8D16AE0.xcactivitylog</string>
+			<string>63EA930C-D1CD-4D5D-A9A4-F9A7E1A86E6B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +168,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646139348.01211095</real>
+			<real>646226608.63590395</real>
 			<key>timeStoppedRecording</key>
-			<real>646139382.20936799</real>
+			<real>646226619.99622595</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>422354D6-DB8C-453A-8CCB-E6FCF8D16AE0</string>
+			<string>63EA930C-D1CD-4D5D-A9A4-F9A7E1A86E6B</string>
 		</dict>
-		<key>4A8B73B6-F5DF-4FE0-BD75-C01CDAC9EFB9</key>
+		<key>65EE02A8-7DB0-4124-82BC-72667D356A8B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4A8B73B6-F5DF-4FE0-BD75-C01CDAC9EFB9.xcactivitylog</string>
+			<string>65EE02A8-7DB0-4124-82BC-72667D356A8B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +202,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646139521.12260604</real>
+			<real>646227750.59136701</real>
 			<key>timeStoppedRecording</key>
-			<real>646139527.17354298</real>
+			<real>646227793.59052706</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>4A8B73B6-F5DF-4FE0-BD75-C01CDAC9EFB9</string>
+			<string>65EE02A8-7DB0-4124-82BC-72667D356A8B</string>
 		</dict>
-		<key>4CF6ED75-104C-4FEF-AFBB-2AAEA86C37E9</key>
+		<key>71045758-CD70-4421-883A-6EB278E6EE28</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4CF6ED75-104C-4FEF-AFBB-2AAEA86C37E9.xcactivitylog</string>
+			<string>71045758-CD70-4421-883A-6EB278E6EE28.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +236,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646138082.25780797</real>
+			<real>646227795.83438098</real>
 			<key>timeStoppedRecording</key>
-			<real>646138119.37316</real>
+			<real>646227894.56128001</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>4CF6ED75-104C-4FEF-AFBB-2AAEA86C37E9</string>
+			<string>71045758-CD70-4421-883A-6EB278E6EE28</string>
 		</dict>
-		<key>64CBD3CF-4F3C-4991-ACC7-E7BFDD03572E</key>
+		<key>7BD44E15-F6CD-4357-9825-9338627FAACE</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>64CBD3CF-4F3C-4991-ACC7-E7BFDD03572E.xcactivitylog</string>
+			<string>7BD44E15-F6CD-4357-9825-9338627FAACE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +270,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646139729.69922197</real>
+			<real>646226347.07691503</real>
 			<key>timeStoppedRecording</key>
-			<real>646139763.37390494</real>
+			<real>646226368.60483396</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>64CBD3CF-4F3C-4991-ACC7-E7BFDD03572E</string>
+			<string>7BD44E15-F6CD-4357-9825-9338627FAACE</string>
 		</dict>
-		<key>6B7B6A31-5B93-43F3-A487-00B3F58A5964</key>
+		<key>85A0CA10-2C9C-4E0B-9709-31230415F6D7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6B7B6A31-5B93-43F3-A487-00B3F58A5964.xcactivitylog</string>
+			<string>85A0CA10-2C9C-4E0B-9709-31230415F6D7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +304,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646139490.44047201</real>
+			<real>646227659.08944094</real>
 			<key>timeStoppedRecording</key>
-			<real>646139519.48558402</real>
+			<real>646227723.47303796</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>6B7B6A31-5B93-43F3-A487-00B3F58A5964</string>
+			<string>85A0CA10-2C9C-4E0B-9709-31230415F6D7</string>
 		</dict>
-		<key>714DE6AA-A7EB-4134-A924-E80E7D840ED4</key>
+		<key>8977FA97-1D4B-4775-AE76-69016A0A3317</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>714DE6AA-A7EB-4134-A924-E80E7D840ED4.xcactivitylog</string>
+			<string>8977FA97-1D4B-4775-AE76-69016A0A3317.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +338,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646140857.55031002</real>
+			<real>646225823.36974895</real>
 			<key>timeStoppedRecording</key>
-			<real>646140881.44647205</real>
+			<real>646225834.52722204</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>714DE6AA-A7EB-4134-A924-E80E7D840ED4</string>
+			<string>8977FA97-1D4B-4775-AE76-69016A0A3317</string>
 		</dict>
-		<key>ACA2F35D-2296-4D52-9E54-962ED3893E2E</key>
+		<key>8E2128CB-E4DE-41ED-88C4-FE6788EA33D0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -321,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>ACA2F35D-2296-4D52-9E54-962ED3893E2E.xcactivitylog</string>
+			<string>8E2128CB-E4DE-41ED-88C4-FE6788EA33D0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +372,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646139532.969486</real>
+			<real>646225835.79931796</real>
 			<key>timeStoppedRecording</key>
-			<real>646139548.70792794</real>
+			<real>646225885.06606305</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>ACA2F35D-2296-4D52-9E54-962ED3893E2E</string>
+			<string>8E2128CB-E4DE-41ED-88C4-FE6788EA33D0</string>
 		</dict>
-		<key>AEC9ABEB-3D26-4784-A8E9-82D7F09B644F</key>
+		<key>914979A5-3579-4A0B-825D-FFCEA06DF86A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -355,7 +389,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>AEC9ABEB-3D26-4784-A8E9-82D7F09B644F.xcactivitylog</string>
+			<string>914979A5-3579-4A0B-825D-FFCEA06DF86A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (macOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646227894.45855606</real>
+			<key>timeStoppedRecording</key>
+			<real>646229016.32298601</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>914979A5-3579-4A0B-825D-FFCEA06DF86A</string>
+		</dict>
+		<key>AD195171-31EF-421D-B512-D9274F97B821</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AD195171-31EF-421D-B512-D9274F97B821.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +440,15 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646140882.55986702</real>
+			<real>646228038.51287198</real>
 			<key>timeStoppedRecording</key>
-			<real>646140895.11286402</real>
+			<real>646228327.31990397</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>AEC9ABEB-3D26-4784-A8E9-82D7F09B644F</string>
+			<string>AD195171-31EF-421D-B512-D9274F97B821</string>
 		</dict>
-		<key>DBECF9EB-86A1-4DFD-AA28-030579CB233B</key>
+		<key>AFB57C67-BB04-43A2-A63B-496EFA75B789</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -389,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DBECF9EB-86A1-4DFD-AA28-030579CB233B.xcactivitylog</string>
+			<string>AFB57C67-BB04-43A2-A63B-496EFA75B789.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,13 +474,285 @@
 			<key>signature</key>
 			<string>Run daylight</string>
 			<key>timeStartedRecording</key>
-			<real>646140169.15404296</real>
+			<real>646226369.95517099</real>
 			<key>timeStoppedRecording</key>
-			<real>646140236.88893795</real>
+			<real>646226384.19680703</real>
 			<key>title</key>
 			<string>Run daylight</string>
 			<key>uniqueIdentifier</key>
-			<string>DBECF9EB-86A1-4DFD-AA28-030579CB233B</string>
+			<string>AFB57C67-BB04-43A2-A63B-496EFA75B789</string>
+		</dict>
+		<key>B78BFBA9-E8DE-4921-9FE7-77AFE52F3CCD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B78BFBA9-E8DE-4921-9FE7-77AFE52F3CCD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (macOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646226385.37227798</real>
+			<key>timeStoppedRecording</key>
+			<real>646226441.78537405</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>B78BFBA9-E8DE-4921-9FE7-77AFE52F3CCD</string>
+		</dict>
+		<key>BCE97AAD-4602-4132-922E-56186822CB29</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BCE97AAD-4602-4132-922E-56186822CB29.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (macOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646226654.06840098</real>
+			<key>timeStoppedRecording</key>
+			<real>646227130.97706103</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>BCE97AAD-4602-4132-922E-56186822CB29</string>
+		</dict>
+		<key>C1AEA84C-9907-45CC-A912-8ACE1BEBACE2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C1AEA84C-9907-45CC-A912-8ACE1BEBACE2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (macOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646227132.88168001</real>
+			<key>timeStoppedRecording</key>
+			<real>646227657.30146205</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>C1AEA84C-9907-45CC-A912-8ACE1BEBACE2</string>
+		</dict>
+		<key>CDC72682-85CA-44C8-88AF-A0DB08153B23</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CDC72682-85CA-44C8-88AF-A0DB08153B23.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (macOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646227725.23749006</real>
+			<key>timeStoppedRecording</key>
+			<real>646227737.47388601</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>CDC72682-85CA-44C8-88AF-A0DB08153B23</string>
+		</dict>
+		<key>D41C50BC-C425-4D16-9153-D76501813EBD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D41C50BC-C425-4D16-9153-D76501813EBD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646228328.75439703</real>
+			<key>timeStoppedRecording</key>
+			<real>646228351.34345603</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>D41C50BC-C425-4D16-9153-D76501813EBD</string>
+		</dict>
+		<key>D9331EF5-F8C1-42E0-82A2-292163084726</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D9331EF5-F8C1-42E0-82A2-292163084726.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646167966.72102499</real>
+			<key>timeStoppedRecording</key>
+			<real>646168051.81280506</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>D9331EF5-F8C1-42E0-82A2-292163084726</string>
+		</dict>
+		<key>DB646E77-6F98-4B1F-A145-F80D434BE198</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DB646E77-6F98-4B1F-A145-F80D434BE198.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (macOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646226626.58678901</real>
+			<key>timeStoppedRecording</key>
+			<real>646226652.30605698</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>DB646E77-6F98-4B1F-A145-F80D434BE198</string>
+		</dict>
+		<key>F40EC1AD-6C5D-409C-8824-11CCB7290B55</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F40EC1AD-6C5D-409C-8824-11CCB7290B55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>daylight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>daylight (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run daylight</string>
+			<key>timeStartedRecording</key>
+			<real>646228352.46444905</real>
+			<key>timeStoppedRecording</key>
+			<real>646228389.78724396</real>
+			<key>title</key>
+			<string>Run daylight</string>
+			<key>uniqueIdentifier</key>
+			<string>F40EC1AD-6C5D-409C-8824-11CCB7290B55</string>
 		</dict>
 	</dict>
 </dict>
