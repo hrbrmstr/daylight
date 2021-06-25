@@ -6,3 +6,4 @@ Swap out your Apple Developer team/signing info and build with Xcode (I used 13 
 
 ![](daylight.png)
 
+Bottom label date/hours text is based on tracked mouse movement.
