@@ -56,8 +56,6 @@ class SunrisetModel: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     timer = Timer.scheduledTimer(withTimeInterval: 1*60, repeats: true) { [weak self] _ in
       
-      debugPrint("Timer")
-      
       self?.locationManager.requestLocation()
       
       DispatchQueue.main.async {
@@ -78,13 +76,30 @@ class SunrisetModel: NSObject, ObservableObject, CLLocationManagerDelegate {
   
   func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
     if let location = locations.last {
-      debugPrint("Got location")
       DispatchQueue.main.async {
         self.latitude = location.coordinate.latitude
         self.longitude = location.coordinate.longitude
         self.updateSunriseSunset()
       }
     }
+  }
+  
+  func sunriset(_ d: Date) -> (rise: Double, set: Double) {
+    
+    let location = CLLocation(latitude: self.latitude, longitude: self.longitude)
+    let GMTHourOffset = Double(location.timeZone.secondsFromGMT() / 60 / 60)
+    var sunrise: CDouble = 0
+    var sunset: CDouble = 0
+    
+    let mdy = d.get(.day, .month, .year)
+
+    let _ = __sunriset__(CInt(mdy.year!), CInt(mdy.month!), CInt(mdy.day!), self.longitude, self.latitude, -35.0/60.0, 1, &sunrise, &sunset)
+          
+    let sunriseDbl: Double = Double(sunrise) + GMTHourOffset
+    let sunsetDbl: Double = Double(sunset) + GMTHourOffset
+
+    return((rise: sunriseDbl, set: sunsetDbl))
+    
   }
   
   func updateSunriseSunset() {
@@ -131,9 +146,7 @@ class SunrisetModel: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     sunrises = ssTimes.map { val in val.0 }
     sunsets = ssTimes.map { val in val.1 }
-    
-    debugPrint("\(today) \(longitude) \(latitude) \(todayRise) \(todaySet)")
-    
+        
   }
   
 }

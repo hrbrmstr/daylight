@@ -19,40 +19,37 @@ func fmtPlacemark(_ p: CLPlacemark?) -> String {
 
 struct ContentView: View {
   
+#if os(iOS)
   @State private var orientation = UIDeviceOrientation.unknown
+#endif
+  
   @ObservedObject var model = SunrisetModel()
+  @State var note: String = " "
   
   var body: some View {
     
     VStack {
-      
-#if os(iOS)
-//      Spacer()
-
-//        .padding(10)
-#endif
-      
+            
       Text("\(model.today.display)\n\(fmtPlacemark(model.placemark))\(model.todayHours.asHoursMinutes) of total daylight\n\(daylightLeft(sunsetFractionalHour: model.todaySet, currentFractionalHour: model.today.fractionalHour))")
         .multilineTextAlignment(.center)
         .padding()
       
       GeometryReader { g in
-        
+
         Rectangle()
           .fill(.black)
+          .trackingMouse { location in
+            let day = location.x.rescale(from: 0...g.size.width, to: model.dateRange.min()!.timeIntervalSince1970...model.dateRange.max()!.timeIntervalSince1970)
+            let dayte = Date(timeIntervalSince1970: day)
+            let ss = model.sunriset(dayte)
+            self.note = "\(dayte.displayShort) ☀️ \((ss.set-ss.rise).asHoursMinutes)"
+          }
+          .clipped()
         
         Band(x: model.dateRange, ymin: model.sunrises, ymax: model.sunsets)
           .fill(
             RadialGradient(colors: [.yellow, .white, .yellow], center: .center, startRadius: 1.0, endRadius: 50.0)
           )
-        
-//        Line(x:model.dateRange, y:model.sunrises)
-//          .stroke(style: StrokeStyle(lineWidth: 1.0, lineCap: .round))
-//          .foregroundColor(Color.primary)
-//
-//        Line(x:model.dateRange, y:model.sunsets)
-//          .stroke(style: StrokeStyle(lineWidth: 1.0, lineCap: .round))
-//          .foregroundColor(Color.primary)
         
         HRule(today: model.today, todayRise: model.todayRise, todaySet: model.todaySet, x: model.dateRange)
           .stroke(style: StrokeStyle(lineWidth: 0.5, lineCap: .round))
@@ -67,6 +64,8 @@ struct ContentView: View {
       .border(Color.primary)
       .padding()
       
+      Text(note)
+      
 #if os(iOS)
       Group {
         if orientation.isPortrait {
@@ -78,7 +77,7 @@ struct ContentView: View {
         }
       }
       .onRotate { newOrientation in
-        orientation = newOrientation
+//        orientation = newOrientation
       }
 #endif
       
@@ -88,7 +87,7 @@ struct ContentView: View {
   }
 }
 
-
+#if os(iOS)
 struct DeviceRotationViewModifier: ViewModifier {
   let action: (UIDeviceOrientation) -> Void
   
@@ -107,3 +106,4 @@ extension View {
     self.modifier(DeviceRotationViewModifier(action: action))
   }
 }
+#endif

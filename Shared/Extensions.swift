@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 extension Date {
     
@@ -20,6 +21,12 @@ extension Date {
   }
   
   var display: String {
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "EEEE, MMMM d, yyyy HH:mm"
+    return(dateFormatter.string(from: self))
+  }
+  
+  var displayShort: String {
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "EEEE, MMMM d, yyyy"
     return(dateFormatter.string(from: self))
@@ -47,6 +54,12 @@ extension Date {
   }
   
   func rescale(from domain: ClosedRange<Self>, to range: ClosedRange<Double>) -> Double {
+    let x = (range.upperBound - range.lowerBound) * (self.timeIntervalSince1970 - domain.lowerBound.timeIntervalSince1970)
+    let y = (domain.upperBound.timeIntervalSince1970 - domain.lowerBound.timeIntervalSince1970)
+    return x / y + range.lowerBound
+  }
+  
+  func rescale(from domain: ClosedRange<Self>, to range: ClosedRange<CGFloat>) -> CGFloat {
     let x = (range.upperBound - range.lowerBound) * (self.timeIntervalSince1970 - domain.lowerBound.timeIntervalSince1970)
     let y = (domain.upperBound.timeIntervalSince1970 - domain.lowerBound.timeIntervalSince1970)
     return x / y + range.lowerBound
@@ -87,6 +100,17 @@ extension FloatingPoint {
   }
 }
 
+extension CGFloat {
+  
+  func rescale(from domain: ClosedRange<Self>, to range: ClosedRange<Self>) -> Self {
+    let x = (range.upperBound - range.lowerBound) * (self - domain.lowerBound)
+    let y = (domain.upperBound - domain.lowerBound)
+    return x / y + range.lowerBound
+  }
+  
+}
+
+
 //extension BinaryInteger {
 //  func rescale(from domain: ClosedRange<Self>, to range: ClosedRange<Self>) -> Self {
 //    let x = (range.upperBound - range.lowerBound) * (self - domain.lowerBound)
@@ -94,3 +118,64 @@ extension FloatingPoint {
 //    return x / y + range.lowerBound
 //  }
 //}
+
+extension View {
+    func trackingMouse(onMove: @escaping (NSPoint) -> Void) -> some View {
+        TrackinAreaView(onMove: onMove) { self }
+    }
+}
+
+struct TrackinAreaView<Content>: View where Content : View {
+    let onMove: (NSPoint) -> Void
+    let content: () -> Content
+    
+    init(onMove: @escaping (NSPoint) -> Void, @ViewBuilder content: @escaping () -> Content) {
+        self.onMove = onMove
+        self.content = content
+    }
+    
+    var body: some View {
+        TrackingAreaRepresentable(onMove: onMove, content: self.content())
+    }
+}
+
+struct TrackingAreaRepresentable<Content>: NSViewRepresentable where Content: View {
+    let onMove: (NSPoint) -> Void
+    let content: Content
+    
+    func makeNSView(context: Context) -> NSHostingView<Content> {
+        return TrackingNSHostingView(onMove: onMove, rootView: self.content)
+    }
+    
+    func updateNSView(_ nsView: NSHostingView<Content>, context: Context) {
+    }
+}
+
+class TrackingNSHostingView<Content>: NSHostingView<Content> where Content : View {
+    let onMove: (NSPoint) -> Void
+    
+    init(onMove: @escaping (NSPoint) -> Void, rootView: Content) {
+        self.onMove = onMove
+        
+        super.init(rootView: rootView)
+        
+        setupTrackingArea()
+    }
+    
+    required init(rootView: Content) {
+        fatalError("init(rootView:) has not been implemented")
+    }
+    
+    @objc required dynamic init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    func setupTrackingArea() {
+        let options: NSTrackingArea.Options = [.mouseMoved, .activeAlways, .inVisibleRect]
+        self.addTrackingArea(NSTrackingArea.init(rect: .zero, options: options, owner: self, userInfo: nil))
+    }
+        
+    override func mouseMoved(with event: NSEvent) {
+        self.onMove(self.convert(event.locationInWindow, from: nil))
+    }
+}

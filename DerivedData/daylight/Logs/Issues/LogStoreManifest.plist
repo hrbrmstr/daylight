@@ -6,34 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>06C71BC3-0D3D-4B17-BC28-99D613E2DE30</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>06C71BC3-0D3D-4B17-BC28-99D613E2DE30.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>daylight_(macOS)-akcghttsgbqssphehaldzwxrujti</string>
-			<key>timeStartedRecording</key>
-			<real>646227793.50252199</real>
-			<key>timeStoppedRecording</key>
-			<real>646227795.81976604</real>
-			<key>title</key>
-			<string>Build target daylight (macOS)</string>
-			<key>uniqueIdentifier</key>
-			<string>06C71BC3-0D3D-4B17-BC28-99D613E2DE30</string>
-		</dict>
 		<key>1C4C09A9-A392-44A3-AA63-1F042B686322</key>
 		<dict>
 			<key>className</key>
@@ -61,6 +33,34 @@
 			<string>Build target daylight (iOS)</string>
 			<key>uniqueIdentifier</key>
 			<string>1C4C09A9-A392-44A3-AA63-1F042B686322</string>
+		</dict>
+		<key>34D79A33-3D7E-45D1-8D92-D168D826C602</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>34D79A33-3D7E-45D1-8D92-D168D826C602.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>daylight_(macOS)-akcghttsgbqssphehaldzwxrujti</string>
+			<key>timeStartedRecording</key>
+			<real>646316185.37257504</real>
+			<key>timeStoppedRecording</key>
+			<real>646316187.10799599</real>
+			<key>title</key>
+			<string>Build target daylight (macOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>34D79A33-3D7E-45D1-8D92-D168D826C602</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

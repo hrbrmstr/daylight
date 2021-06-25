@@ -45,6 +45,8 @@
 		014DA544268247080054A482 /* daylight--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "daylight--iOS--Info.plist"; sourceTree = "<group>"; };
 		014DA5452682471A0054A482 /* daylight--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "daylight--macOS--Info.plist"; sourceTree = "<group>"; };
 		014DA546268247EA0054A482 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		019170972685FFE5008CB324 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0191709826860072008CB324 /* daylight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daylight.png; sourceTree = "<group>"; };
 		01D6E72E2683527D00285DF4 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		01D6E72F2683529400285DF4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		01D6E7342683531F00285DF4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -71,6 +73,8 @@
 		014DA513268234500054A482 = {
 			isa = PBXGroup;
 			children = (
+				0191709826860072008CB324 /* daylight.png */,
+				019170972685FFE5008CB324 /* README.md */,
 				014DA5452682471A0054A482 /* daylight--macOS--Info.plist */,
 				014DA544268247080054A482 /* daylight--iOS--Info.plist */,
 				014DA543268244390054A482 /* daylight.entitlements */,
